@@ -12,4 +12,4 @@ Allowed names:
 - LICENSE.txt
 - LICENSE.rst
 
-![alt text](afbeelding.png)
+![alt text](images/licenses.png)
