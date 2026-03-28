@@ -15,3 +15,9 @@ Behaviour can be directed by a __config.yml__ file in the same folder.
 ![alt text](images/issue-template-config.png)
 
 ![alt text](images/templates.png)
+
+# Issue template forms
+
+It is possible to create form like issue templates using yaml syntax.
+
+More information can be found hereL [Configuring issue templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository).
