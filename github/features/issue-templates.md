@@ -14,4 +14,4 @@ Behaviour can be directed by a __config.yml__ file in the same folder.
 
 ![alt text](images/issue-template-config.png)
 
-![alt text](afbeelding-1.png)
+![alt text](images/templates.png)
