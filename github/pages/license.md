@@ -11,3 +11,5 @@ Allowed names:
 - LICENSE.md
 - LICENSE.txt
 - LICENSE.rst
+
+![alt text](afbeelding.png)
