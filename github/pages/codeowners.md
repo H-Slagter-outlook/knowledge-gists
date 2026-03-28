@@ -6,17 +6,20 @@ Managing a repository with multiple contributors can be challenging, especially 
 
 ## The Importance of CODEOWNERS
 
-Ensuring Code Quality and Security
+### Ensuring Code Quality and Security
 
 One of the primary reasons for using CODEOWNERS is to ensure that experienced and knowledgeable team members review critical code changes. This practice helps maintain code quality and security, as changes to sensitive areas are vetted by those most familiar with them.
 Streamlining Code Review Process
 
 CODEOWNERS simplifies the code review process by automatically requesting reviews from the designated owners when changes are made to specific paths. This automation ensures that the right people are notified without the need for manual intervention.
-Accountability and Ownership
+
+### Accountability and Ownership
 
 Assigning code ownership fosters a sense of accountability among team members. When individuals or teams are designated as owners of certain parts of the codebase, they are more likely to ensure that their sections remain robust and well-maintained.
-Getting Started with CODEOWNERS
-Creating a CODEOWNERS File
+
+## Getting Started with CODEOWNERS
+
+### Creating a CODEOWNERS File
 
 To get started with CODEOWNERS, you need to create a CODEOWNERS file in the .github or docs directory of your repository.
 
@@ -24,7 +27,7 @@ To get started with CODEOWNERS, you need to create a CODEOWNERS file in the .git
     Create a .github directory if it doesn't exist.
     Create a file named CODEOWNERS in this directory.
 
-Defining Code Owners
+### Defining Code Owners
 
 Within the CODEOWNERS file, you specify the paths and the corresponding owners. Here's an example:
 
@@ -46,7 +49,7 @@ Assign specific team to a directory
 /docs                     @your-org/docs
 ```
 
-## Saving and Committing the CODEOWNERS File
+### Saving and Committing the CODEOWNERS File
 
 After defining the owners, save the file and commit it to your repository:
 
@@ -58,11 +61,11 @@ git commit -m "Add CODEOWNERS file"
 git push origin main
 ```
 
-## Enabling and Disabling CODEOWNERS
+### Enabling and Disabling CODEOWNERS
 
 To enable or disable CODEOWNERS in your GitHub repository, you need to define a rule set. To do so, go to your repository Settings and click on Rules > Rulesets in the left navigation bar. Then enable Require a pull request before merging and Require review from Code Owners:
 
-## Temporarily Disabling CODEOWNERS
+### Temporarily Disabling CODEOWNERS
 
 If you need to temporarily disable the CODEOWNERS functionality, you can modify the repository settings:
 
@@ -70,7 +73,7 @@ If you need to temporarily disable the CODEOWNERS functionality, you can modify 
     Click on Branches.
     Disable the option Require review from Code Owners.
 
-## Permanently Disabling CODEOWNERS
+### Permanently Disabling CODEOWNERS
 
 To permanently disable CODEOWNERS, simply remove or rename the CODEOWNERS file from your repository.
 
@@ -83,6 +86,7 @@ git push origin main
 ```
 
 ## Common Pitfalls and How to Avoid Them
+
 ### Syntax Errors
 
 A common issue with CODEOWNERS is syntax errors. Ensure that paths and user/team mentions are correctly formatted. Use the following syntax:
@@ -117,7 +121,7 @@ You can specify paths without assigning any owners. This is useful for indicatin
 /path/to/exclude
 ```
 
-## Creating a Team Without Members
+### Creating a Team Without Members
 
 A team in GitHub can be created without any members, but this defeats the purpose of using CODEOWNERS. Always ensure that teams have the appropriate members before assigning them ownership.
 

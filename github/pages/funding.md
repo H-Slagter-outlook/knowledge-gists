@@ -8,7 +8,7 @@ A number of platforms are supported, which have their own way of linking to a re
 
 Example:
 
-github: [username, organisationname]
-patrion: usernameatpatreon
-tidelift: npm/packagename
-custom: "https://some.website.com"
+github: [username, organisationname]<br/>
+patrion: usernameatpatreon<br/>
+tidelift: npm/packagename<br/>
+custom: "https://some.website.com"<br/>
