@@ -12,6 +12,6 @@ Account or organisation wide templates can be stored in the ISSUE_TEMPLATE folde
 
 Behaviour can be directed by a __config.yml__ file in the same folder.
 
-![alt text](afbeelding.png)
+![alt text](images/issue-template-config.png)
 
 ![alt text](afbeelding-1.png)
