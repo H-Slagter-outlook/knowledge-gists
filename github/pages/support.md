@@ -1,6 +1,6 @@
 # SUPPORT.md
 
-This file tells people where they can find help for the code in the repo.
+This file tells people where they can find help for the software in the repo.
 
 It can be stored:
 - in the root folder;
