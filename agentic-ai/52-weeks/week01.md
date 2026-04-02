@@ -38,8 +38,8 @@ Keywords you’ll encounter and apply throughout the course include:
 You’ll leave with a clear roadmap, a checklist for your environment setup, and an understanding of how we’ll measure your growth via benchmarks, UX evaluations, and ROI impact.<br/>
 This is your launchpad for a 52-week applied mastery of Agentic AI.
 
-Keywords:<br/>
-= Agentic AI;
+Keywords:
+- Agentic AI;
 - LLM agents;
 - RAG;
 - vector databases;
@@ -57,7 +57,7 @@ Keywords:<br/>
 ## Day 1: What is Agentic AI? Evolution from AI → Generative AI → Agents
 
 In this lecture, we trace the trajectory from rule-based AI to machine learning, onward to deep learning and Generative AI, culminating in Agentic AI.<br/>
-You’ll learn what makes an agent more than a chatbot:
+You’ll learn what makes an agent more than a chatbot:<br/>
 - the fusion of LLM reasoning;
 - tool use;
 - memory;
