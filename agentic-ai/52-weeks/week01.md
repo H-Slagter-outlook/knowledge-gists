@@ -121,3 +121,10 @@ Keywords:
 - human-in-the-loop;
 - prompt injection.
 
+![alt text](images/week01/day01/01-evolution.png)
+
+![alt text](images/week01/day01/02-leap.png)
+
+![alt text](images/week01/day01/03-four-pillars.png)
+
+![alt text](images/week01/day01/04-transformation.png)
