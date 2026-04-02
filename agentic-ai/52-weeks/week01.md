@@ -128,3 +128,45 @@ Keywords:
 ![alt text](images/week01/day01/03-four-pillars.png)
 
 ![alt text](images/week01/day01/04-transformation.png)
+
+## Day 2: Anatomy of an AI Agent (LLM, memory, tools, goals)
+
+Here we open up the black box and label every moving part.<br/> 
+An effective AI agent starts with an LLM as the reasoning core, but its power comes from connected capabilities:
+- memory (short-term context windows, long-term vector stores and episodic logs);
+- tools (functions, APIs, code execution, retrieval);
+- goals (structured tasks, constraints, and success metrics).
+
+We’ll walk through a canonical architecture: user intent → planner → tool selection → execution → memory updates → reflection → next step.<br/>
+You’ll learn how embeddings make past knowledge findable and how RAG grounds responses in trusted data.<br/>
+We’ll cover prompt templates, system instructions, and state stores for reliable behavior across steps.<br/>
+You’ll also examine safety layers—from content policies to schema validation to policy-as-code—and observability:
+- traces;
+- logs;
+- metrics;
+- cost dashboards. 
+By the end, you’ll be able to diagram an agent, justify each component, and reason about trade-offs like planning depth vs latency, context size vs cost, and tool breadth vs safety.<br/>
+We’ll provide a checklist to define goals, inputs, outputs, and acceptance tests, ensuring your agents deliver measurable value.
+
+Keywords:
+- AI agent architecture;
+- LLM;
+- memory;
+- embeddings;
+- RAG,;
+- tools;
+- goal-oriented planning;
+- observability;
+- guardrails;
+- tracing;
+- cost optimization.
+
+![alt text](images/week01/day02/01-ai-agent.png)
+
+![alt text](images/week01/day02/02-llm.png)
+
+![alt text](images/week01/day02/03-memory.png)
+
+![alt text](images/week01/day02/04-tools.png)
+
+![alt text](images/week01/day02/05-goals.png)
