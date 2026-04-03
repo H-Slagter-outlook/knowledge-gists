@@ -26,6 +26,8 @@
 
 - What is a loop in agentic AI workflows, and why does calling an LLM multiple times unlock complex reasoning?
 
+![alt text](images/day-02/03-four-tricks.png)
+
 - What is the current, widely accepted definition of an AI agent?
 
 - How do tools and loops work together to power products like Cursor Agent and Claude Code?
