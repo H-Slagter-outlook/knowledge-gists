@@ -201,3 +201,74 @@ Keywords:
 - API keys;
 - .env.
 
+### Core Tools to Install
+These foundational tools form the backbone of your agentic AI development workspace.
+
+#### 1 Python 3.10+
+The core programming language for agentic AI development, with version 3.10+ offering critical features like pattern matching and improved type hinting that modern frameworks utilize.
+
+#### 2 Jupyter & VS Code
+Jupyter for interactive experimentation and visualization; VS Code for production-grade development with extensions for AI workflows
+
+#### 3 Git & GitHub
+Essential for version control, tracking changes, and collaborating with peers on complex agent architectures
+
+#### 4 Conda or venv
+Environment management to isolate dependencies for different projects and prevent conflicts between packages
+
+### Essential Libraries
+
+#### LangChain / LangGraph
+Frameworks for composing LLMs into reasoning chains and complex agent workflows with memory and tool use
+
+#### LlamaIndex
+Powerful data framework for connecting custom data to LLMs and building knowledge-intensive applications
+
+#### FAISS / Chroma
+Vector databases for efficient similarity search, essential for agent memory and retrieval augmentation
+
+#### OpenAI / HuggingFace
+API integrations for accessing state-of-the-art language models and embedding services
+
+### Cloud & API Keys
+
+#### Essential Accounts
+- OpenAI Platform: GPT-4, GPT-3.5, and embedding models;
+- Anthropic Claude: Alternative LLM with strong reasoning;
+- Hugging Face Hub - Open source models and datasets.
+
+#### Security Best Practices
+- Store API keys in .env files (never commit to Git);
+- Use environment variables via dotenv package;
+- Implement usage monitoring to avoid unexpected costs;
+- Set up spending limits in provider dashboards.
+
+### Testing Your Setup
+Before proceeding to labs, verify your environment with this simple test that
+confirms your tools, libraries, and API connections are working properly:
+```
+# Hello Agent Test
+import os
+from dotenv import load_dotenv
+from langchain.llms import OpenAI
+from langchain.agents import initialize_agent, Tool
+from langchain.chains import LLMChain
+
+# Load environment variables
+load_dotenv()
+
+# Initialize LLM
+llm = OpenAI(temperature=0)
+
+# Test simple completion
+response = llm("You are an AI assistant. Say hello:")
+print(f"Test result: {response}")
+```
+Run the Test Script<br/>
+Execute the provided code to verify your LLM connection
+
+Troubleshoot Issues<br/>
+Debug any package import or API authentication errors
+
+Document Your Setup<br/>
+Create a requirements.txt file for reproducibility
