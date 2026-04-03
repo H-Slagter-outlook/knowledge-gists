@@ -57,4 +57,16 @@
 
 - What free tier options does GitHub Copilot offer, and how do you track your usage?
 
+## OpenAI Codex VS Code Extension: Zero-Shot Kanban App Build
 
+- How do you install and set up the OpenAI Codex VS Code extension for AI development?
+
+- Can an AI coding agent build a complete Kanban app from a single prompt with zero-shot prompting?
+
+- How does OpenAI Codex compare to GitHub Copilot and other agentic AI tools in an IDE workflow?
+
+- What is "Agent Full Access" mode in Codex, and how do reasoning effort settings affect AI code generation?
+
+- Do you actually need to know front-end coding to build complex apps in minutes using AI?
+
+- How do you manage multiple AI-powered VS Code extensions and organize project workflows?
