@@ -70,3 +70,19 @@
 - Do you actually need to know front-end coding to build complex apps in minutes using AI?
 
 - How do you manage multiple AI-powered VS Code extensions and organize project workflows?
+
+## Building a Kanban App with Antigravity IDE and Gemini 3 Pro
+
+- What is Google Antigravity IDE and how does it compare to Cursor and VS Code for AI development?
+
+- How do you set up and configure Antigravity IDE with Gemini 3 Pro for agentic coding workflows?
+
+- Can you build complex apps in minutes using Antigravity AI and its built-in agent features?
+
+- How does Gemini 3 Pro perform as an AI code generation model when building a real project from scratch?
+
+- What are the key differences between Antigravity IDE's rules system and the standard agents.md approach?
+
+- How does Antigravity's automated testing with Playwright work during AI-powered development?
+
+
