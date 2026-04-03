@@ -96,6 +96,3 @@
 - What are the key differences in workflow, agent rules, and plan-execute modes across today's top AI IDEs?
 
 - How do you choose the right AI coding tool for your team and your projects?
-
-
-
