@@ -35,3 +35,21 @@
 - How has the definition of AI agents evolved from OpenAI's early framing to the 2025 consensus?
 
 ![alt text](images/day-02/04-ai-agent.png)
+
+## Context Engineering: System Prompts, Context Windows & agents.md
+
+- What is context engineering and how does it differ from prompt engineering?
+
+- How do system prompts, tool descriptions, memory, and conversation history form the input context for AI agents?
+
+![alt text](images/day-02/05-context.png)
+
+- What is an agents.md (or claude.md) file and why is it critical for coding agents?
+
+- How do context windows work, and what are the token limits for GPT 5.2, Claude Sonnet 4.5, and Gemini?
+
+![alt text](images/day-02/06-context-window.png)
+
+- What is context compacting, and should you trust it or manually manage your context?
+
+- Why does putting less in the context often produce better AI coding results?
