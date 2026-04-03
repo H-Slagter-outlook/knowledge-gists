@@ -170,3 +170,34 @@ Keywords:
 ![alt text](images/week01/day02/04-tools.png)
 
 ![alt text](images/week01/day02/05-goals.png)
+
+## Day 3: Setting up your Agentic AI development environment
+
+This is your hands-on setup guide for a smooth build experience.<br/> 
+We’ll standardize on a Python-first stack (with room for JavaScript/TypeScript if needed), install core libraries (LangChain, LangGraph, LlamaIndex, FastAPI/Express, FAISS, Pinecone clients), configure API keys for OpenAI/Anthropic/Hugging Face, and spin up virtual environments and .env management for clean isolation.<br/>
+You’ll provision a vector database (local FAISS to start, optional Pinecone for scale), create a project scaffold with src/tests/config folders, add logging and tracing hooks, and wire a minimal RAG pipeline to validate dependencies.<br/>
+We’ll set linting, formatting, and pre-commit to keep repos tidy; configure Docker to containerize your agents; and show a local compose file for LLM endpoints, vector stores, and a lightweight observability stack.<br/>
+You’ll also create a template .ipynb for rapid prototyping and a CLI entrypoint for scripted runs.<br/>
+Security basics:
+- secret management;
+- least privilege;
+- rate limiting
+
+are included from day one.<br/>
+You’ll also create a template .ipynb for rapid pro
+By the end, you’ll have a working dev environment with reproducible builds and the baseline agent skeleton you’ll extend throughout the program.
+
+Keywords: 
+- Agentic AI dev environment;
+- Python;
+- LangChain;
+- LangGraph;
+- LlamaIndex;
+- FAISS;
+- Pinecone;
+- Docker;
+- RAG, ;
+- observability;
+- API keys;
+- .env.
+
