@@ -33,3 +33,5 @@
 - How do tools and loops work together to power products like Cursor Agent and Claude Code?
 
 - How has the definition of AI agents evolved from OpenAI's early framing to the 2025 consensus?
+
+![alt text](images/day-02/04-ai-agent.png)
