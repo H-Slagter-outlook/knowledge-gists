@@ -41,3 +41,20 @@
 - What best practices should you follow when creating prompt instructions for vibe coding with Cursor?
 
 - How can you iteratively improve your agents.md to get better results from AI-assisted code generation?
+
+## Building a Kanban Board with GitHub Copilot in VS Code
+
+
+- How do you install and set up GitHub Copilot as a VS Code extension for AI-assisted coding?
+
+- Can GitHub Copilot's coding agent build a full Kanban board app from a single instructions file?
+
+- How does GitHub Copilot in VS Code compare to Cursor for building projects with AI?
+
+- What's the right workflow for debugging when a coding agent claims it fixed a bug but didn't?
+
+- How do you use plan mode and agent mode in GitHub Copilot Chat to implement a project step by step?
+
+- What free tier options does GitHub Copilot offer, and how do you track your usage?
+
+
